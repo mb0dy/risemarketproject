@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    .navbar-links{
+    position: absolute;
+    width: 1360px;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+    background-color: #303030;
+        .risemarket{
+            position: absolute;
+            top: 45px;
+            left: 20px;
+            font-family: ubuntu;
+            font-size: 40px;
+            text-decoration: none;
+            color: white;
+        }
+        .news{
+            position: absolute;
+            top: 50px;
+            right: 20px;
+            font-family: ubuntu;
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+        }
+        .recomendations{
+            position: absolute;
+            top: 50px;
+            right: 150px;
+            font-family: ubuntu;
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+        }
+        .galery{
+            position: absolute;
+            top: 50px;
+            right: 350px;
+            font-family: ubuntu;
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+        }
+        .contacts{
+            position: absolute;
+            top: 50px;
+            right: 470px;
+            font-family: ubuntu;
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+        }
+    }       
+}
